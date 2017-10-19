@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="rokudol.com.pswedittext.MainActivity">
+
+    <rokudol.com.pswtext.PswText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:isDrawBorderImg="true"/>
+
+    <!--<rokudol.com.pswtext.PswText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="10dp"/>-->
+
+    <!--<rokudol.com.pswtext.PswText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--app:isShowTextPsw="true"/>-->
+
+    <!--<rokudol.com.pswtext.PswText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--app:darkPsw="true"/>-->
+<LinearLayout
+    android:gravity="center"
+    android:background="#eeeeee"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <rokudol.com.pswtext.PswText
+        android:id="@+id/codeinput_diy"
+        android:layout_width="220dp"
+        android:layout_height="44dp"
+        app:borderColor="#ccc"
+        app:borderRadius="1dp"
+        app:clearTextPsw="true"
+        app:inputBorder_color="#ff5252"
+        app:isDrawBorderImg="true"
+        app:pswColor="#333"
+        app:pswLength="4"
+        app:psw_textSize="16sp"/>
+</LinearLayout>
+
+
+    <Button
+        android:id="@+id/bt4"
+        android:text="清除密码"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="跳转华为权限设置"
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="跳转小米权限设置"
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="跳转魅族权限设置"
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
